@@ -18,6 +18,8 @@ Notes for grader:
 	I expect this will dock my grade, but I can explain what issues I was getting if you would like for clarification.
 	I have included comments in the Controller.java file where this occurred in the Client project.
 
+	I used Java 13 (Project SDK) while developing both of these projects.
+
 config.properites:
 
 	The config.properties file contains all the settings for input and output.
