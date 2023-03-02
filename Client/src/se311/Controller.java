@@ -15,6 +15,7 @@ public class Controller {
 
     public static void main(String[] args) throws IOException {
 
+        final int serverPort = 2023;
         // Get the address information for the local host
         InetAddress localHost = InetAddress.getLocalHost();
         // Set to null here for exception handling if server cannot be reached
@@ -27,7 +28,7 @@ public class Controller {
 
             // Create a socket to connect to the server
             System.out.println("Connecting to Server...");
-            socket = new Socket(localHost.getHostAddress(), 2023);
+            socket = new Socket(localHost.getHostAddress(), serverPort);
             System.out.println("Connected to Server!\n");
 
             // Search Input object
