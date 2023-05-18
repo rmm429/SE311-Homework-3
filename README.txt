@@ -15,11 +15,7 @@ Notes for grader:
 	The provided object loader does not give an option to accept constructors with parameters.
 	Also, because the Output Decorator is abstract, using an object loader will not allow me to access the extended methods of the header and footer.
 	I have included comments in the Controller.java file where this occurred in the Client project.
-
-	For Homework 1, I was given a note that the project would not run unless in debug mode.
-	I was able to run mine normally on both my Windows PC and Mac laptop, so I am wondering if it is a Java issue or IntelliJ issue.
-	For clarification, I used Java 13 (Project SDK) while developing both of these projects.
-
+	
 config.properites:
 
 	The config.properties file contains all the settings for input and output.
