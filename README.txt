@@ -1,3 +1,9 @@
+This project is a Keyword-in-Context (KWIC) searcher.
+This version utilizes a KWIC Server with a Search Client.
+When the server is started, it will prompt the user to enter lines that will be KWIC-sorted and stored for use.
+When a client is started, they can search for a keyword that is stored within the KWIC sorted lines repository.
+Multiple clients can connect to the server at once (multi-threaded).
+
 There are two separate Java projects contained - Client and Server.
 The Server needs to be run first before the Client can connect to it.
 To run either program, run the Controller.java file in the "src/se311" folder contained within either of the project directories.
