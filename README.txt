@@ -14,8 +14,6 @@ Notes for grader:
 	The abstract decorator class and footer decorator constructors take one parameter & the header takes three.
 	The provided object loader does not give an option to accept constructors with parameters.
 	Also, because the Output Decorator is abstract, using an object loader will not allow me to access the extended methods of the header and footer.
-	I tried many methods and am quite unfamiliar with object loaders and decorators.
-	I expect this will dock my grade, but I can explain what issues I was getting if you would like for clarification.
 	I have included comments in the Controller.java file where this occurred in the Client project.
 
 	For Homework 1, I was given a note that the project would not run unless in debug mode.
